@@ -1,5 +1,11 @@
 # PHP OpenAI Structured Output
 
+[![PHP Composer](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/php.yml/badge.svg)](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/php.yml)
+[![Coding Standards](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/coding-standards.yml)
+[![Static Analysis](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/static-analysis.yml)
+[![PHP Compatibility](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/php-compatibility.yml/badge.svg)](https://github.com/omarsabbagh/php-openai-structured/actions/workflows/php-compatibility.yml)
+[![codecov](https://codecov.io/gh/omarsabbagh/php-openai-structured/branch/main/graph/badge.svg)](https://codecov.io/gh/omarsabbagh/php-openai-structured)
+
 A PHP package for easily working with OpenAI's structured output feature. This package provides a simple and intuitive way to define JSON schemas for OpenAI API calls and process the structured responses.
 
 ## Features
