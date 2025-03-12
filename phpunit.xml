@@ -12,21 +12,18 @@
             <directory>tests/Integration</directory>
         </testsuite>
     </testsuites>
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
     <coverage>
         <report>
             <clover outputFile="coverage.xml"/>
             <html outputDirectory="coverage" lowUpperBound="50" highLowerBound="90"/>
             <text outputFile="php://stdout" showUncoveredFiles="false"/>
         </report>
-        <include>
-            <directory suffix=".php">src</directory>
-        </include>
     </coverage>
-    <source>
-        <include>
-            <directory>src</directory>
-        </include>
-    </source>
     <php>
         <env name="APP_ENV" value="testing"/>
     </php>
