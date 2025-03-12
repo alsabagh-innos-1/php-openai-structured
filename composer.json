@@ -1,0 +1,35 @@
+{
+    "name": "omarsabbagh/php-openai-structured",
+    "description": "A PHP package for easily working with OpenAI's structured output feature",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "openai-php/client": "^0.10.3",
+        "guzzlehttp/psr7": "^2.7",
+        "symfony/http-client": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omarsabbagh\\PhpOpenaiStructured\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Yassin Al Sabagh",
+            "email": "alsabagh@innoscripta.com"
+        }
+    ],
+    "keywords": [
+        "openai",
+        "structured output",
+        "json schema",
+        "php"
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable"
+}
