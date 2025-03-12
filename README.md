@@ -133,6 +133,32 @@ Check the `examples` directory for more examples of how to use this package:
 - `examples/categorization.php` - Basic categorization example
 - `examples/custom_schema.php` - Custom schema for entity extraction
 
+## Development
+
+### Running Tests
+
+This package includes a comprehensive test suite. To run the tests:
+
+```bash
+composer install
+vendor/bin/phpunit
+```
+
+The test suite includes:
+
+- **Unit Tests**: Tests for individual components
+- **Integration Tests**: Tests for components working together
+
+### Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## Requirements
 
 - PHP 8.1 or higher

@@ -9,9 +9,18 @@
         "guzzlehttp/psr7": "^2.7",
         "symfony/http-client": "^7.2"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "mockery/mockery": "^1.5"
+    },
     "autoload": {
         "psr-4": {
             "Omarsabbagh\\PhpOpenaiStructured\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omarsabbagh\\PhpOpenaiStructured\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -31,5 +40,8 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
 }
