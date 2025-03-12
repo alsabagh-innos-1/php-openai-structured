@@ -44,7 +44,8 @@
     },
     "minimum-stability": "stable",
     "scripts": {
-        "test": "phpunit",
+        "test": "phpunit --no-coverage",
+        "test-coverage": "phpunit",
         "phpcs": "phpcs --standard=PSR12 src/ tests/",
         "phpstan": "phpstan analyse src tests --level=5",
         "check": [
